@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 .middle {
     position: absolute;
     top: 50%;
@@ -59,7 +63,16 @@
 h1 {
     text-align: center;
     font-size: 2rem;
-    margin: 2rem 0;
+    margin: 2rem 0 0.5rem;
+}
+
+p {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+small {
+    font-size: 1.5rem;
 }
 
 @media (min-width: 768px) {
@@ -72,26 +85,239 @@ span {
     font-size: 2.5rem;
 }
 
-#btnControl {
+#card-flip,
+#card-flip1,
+#card-flip2,
+#card-flip3,
+#card-flip4,
+#card-flip5,
+#card-flip6,
+#card-flip7,
+#card-flip8,
+#card-flip9,
+#card-flip10,
+#card-flip11,
+#card-flip12,
+#card-flip13,
+#card-flip14,
+#card-flip15,
+#card-flip16,
+#card-flip17,
+#card-flip18,
+#card-flip19,
+#card-flip20,
+#card-flip21,
+#card-flip22,
+#card-flip23,
+#card-flip24,
+#card-flip25,
+#card-flip26,
+#card-flip27,
+#card-flip28,
+#card-flip29,
+#card-flip30,
+#card-flip31,
+#card-flip32,
+#card-flip33,
+#card-flip34,
+#card-flip35,
+#card-flip36,
+#card-flip37,
+#card-flip38,
+#card-flip39,
+#card-flip40,
+#card-flip41,
+#card-flip42,
+#card-flip43,
+#card-flip44,
+#card-flip45,
+#card-flip46,
+#card-flip47,
+#card-flip48,
+#card-flip49,
+#card-flip50,
+#card-flip51,
+#card-flip52,
+#card-flip53,
+#card-flip54,
+#card-flip55,
+#card-flip56,
+#card-flip57,
+#card-flip58,
+#card-flip59,
+#card-flip60,
+#card-flip61,
+#card-flip62,
+#card-flip63,
+#card-flip64,
+#card-flip65,
+#card-flip66,
+#card-flip67,
+#card-flip68,
+#card-flip69,
+#card-flip70,
+#card-flip71,
+#card-flip72,
+#card-flip73,
+#card-flip74,
+#card-flip75 {
     display: none;
 }
 
-#btnControl2 {
-    display: none;
-}
-
-#btnControl:checked + label > .card .front {
+#card-flip:checked + label > .card .front,
+#card-flip1:checked + label > .card .front,
+#card-flip2:checked + label > .card .front,
+#card-flip3:checked + label > .card .front,
+#card-flip4:checked + label > .card .front,
+#card-flip5:checked + label > .card .front,
+#card-flip6:checked + label > .card .front,
+#card-flip7:checked + label > .card .front,
+#card-flip8:checked + label > .card .front,
+#card-flip9:checked + label > .card .front,
+#card-flip10:checked + label > .card .front,
+#card-flip11:checked + label > .card .front,
+#card-flip12:checked + label > .card .front,
+#card-flip13:checked + label > .card .front,
+#card-flip14:checked + label > .card .front,
+#card-flip15:checked + label > .card .front,
+#card-flip16:checked + label > .card .front,
+#card-flip17:checked + label > .card .front,
+#card-flip18:checked + label > .card .front,
+#card-flip19:checked + label > .card .front,
+#card-flip20:checked + label > .card .front,
+#card-flip21:checked + label > .card .front,
+#card-flip22:checked + label > .card .front,
+#card-flip23:checked + label > .card .front,
+#card-flip24:checked + label > .card .front,
+#card-flip25:checked + label > .card .front,
+#card-flip26:checked + label > .card .front,
+#card-flip27:checked + label > .card .front,
+#card-flip28:checked + label > .card .front,
+#card-flip29:checked + label > .card .front,
+#card-flip30:checked + label > .card .front,
+#card-flip31:checked + label > .card .front,
+#card-flip32:checked + label > .card .front,
+#card-flip33:checked + label > .card .front,
+#card-flip34:checked + label > .card .front,
+#card-flip35:checked + label > .card .front,
+#card-flip36:checked + label > .card .front,
+#card-flip37:checked + label > .card .front,
+#card-flip38:checked + label > .card .front,
+#card-flip39:checked + label > .card .front,
+#card-flip40:checked + label > .card .front,
+#card-flip41:checked + label > .card .front,
+#card-flip42:checked + label > .card .front,
+#card-flip43:checked + label > .card .front,
+#card-flip44:checked + label > .card .front,
+#card-flip45:checked + label > .card .front,
+#card-flip46:checked + label > .card .front,
+#card-flip47:checked + label > .card .front,
+#card-flip48:checked + label > .card .front,
+#card-flip49:checked + label > .card .front,
+#card-flip50:checked + label > .card .front,
+#card-flip51:checked + label > .card .front,
+#card-flip52:checked + label > .card .front,
+#card-flip53:checked + label > .card .front,
+#card-flip54:checked + label > .card .front,
+#card-flip55:checked + label > .card .front,
+#card-flip56:checked + label > .card .front,
+#card-flip57:checked + label > .card .front,
+#card-flip58:checked + label > .card .front,
+#card-flip59:checked + label > .card .front,
+#card-flip60:checked + label > .card .front,
+#card-flip61:checked + label > .card .front,
+#card-flip62:checked + label > .card .front,
+#card-flip63:checked + label > .card .front,
+#card-flip64:checked + label > .card .front,
+#card-flip65:checked + label > .card .front,
+#card-flip66:checked + label > .card .front,
+#card-flip67:checked + label > .card .front,
+#card-flip68:checked + label > .card .front,
+#card-flip69:checked + label > .card .front,
+#card-flip70:checked + label > .card .front,
+#card-flip71:checked + label > .card .front,
+#card-flip72:checked + label > .card .front,
+#card-flip73:checked + label > .card .front,
+#card-flip74:checked + label > .card .front,
+#card-flip75:checked + label > .card .front {
     transform: perspective(300px) rotateY(-180deg);
 }
 
-#btnControl:checked + label > .card .back {
-    transform: perspective(300px) rotateY(0deg);
-}
-
-#btnControl2:checked + label > .card .front {
-    transform: perspective(300px) rotateY(-180deg);
-}
-
-#btnControl2:checked + label > .card .back {
+#card-flip:checked + label > .card .back,
+#card-flip1:checked + label > .card .back,
+#card-flip2:checked + label > .card .back,
+#card-flip3:checked + label > .card .back,
+#card-flip4:checked + label > .card .back,
+#card-flip5:checked + label > .card .back,
+#card-flip6:checked + label > .card .back,
+#card-flip7:checked + label > .card .back,
+#card-flip8:checked + label > .card .back,
+#card-flip9:checked + label > .card .back,
+#card-flip10:checked + label > .card .back,
+#card-flip11:checked + label > .card .back,
+#card-flip12:checked + label > .card .back,
+#card-flip13:checked + label > .card .back,
+#card-flip14:checked + label > .card .back,
+#card-flip15:checked + label > .card .back,
+#card-flip16:checked + label > .card .back,
+#card-flip17:checked + label > .card .back,
+#card-flip18:checked + label > .card .back,
+#card-flip19:checked + label > .card .back,
+#card-flip20:checked + label > .card .back,
+#card-flip21:checked + label > .card .back,
+#card-flip22:checked + label > .card .back,
+#card-flip23:checked + label > .card .back,
+#card-flip24:checked + label > .card .back,
+#card-flip25:checked + label > .card .back,
+#card-flip26:checked + label > .card .back,
+#card-flip27:checked + label > .card .back,
+#card-flip28:checked + label > .card .back,
+#card-flip29:checked + label > .card .back,
+#card-flip30:checked + label > .card .back,
+#card-flip31:checked + label > .card .back,
+#card-flip32:checked + label > .card .back,
+#card-flip33:checked + label > .card .back,
+#card-flip34:checked + label > .card .back,
+#card-flip35:checked + label > .card .back,
+#card-flip36:checked + label > .card .back,
+#card-flip37:checked + label > .card .back,
+#card-flip38:checked + label > .card .back,
+#card-flip39:checked + label > .card .back,
+#card-flip40:checked + label > .card .back,
+#card-flip41:checked + label > .card .back,
+#card-flip42:checked + label > .card .back,
+#card-flip43:checked + label > .card .back,
+#card-flip44:checked + label > .card .back,
+#card-flip45:checked + label > .card .back,
+#card-flip46:checked + label > .card .back,
+#card-flip47:checked + label > .card .back,
+#card-flip48:checked + label > .card .back,
+#card-flip49:checked + label > .card .back,
+#card-flip50:checked + label > .card .back,
+#card-flip51:checked + label > .card .back,
+#card-flip52:checked + label > .card .back,
+#card-flip53:checked + label > .card .back,
+#card-flip54:checked + label > .card .back,
+#card-flip55:checked + label > .card .back,
+#card-flip56:checked + label > .card .back,
+#card-flip57:checked + label > .card .back,
+#card-flip58:checked + label > .card .back,
+#card-flip59:checked + label > .card .back,
+#card-flip60:checked + label > .card .back,
+#card-flip61:checked + label > .card .back,
+#card-flip62:checked + label > .card .back,
+#card-flip63:checked + label > .card .back,
+#card-flip64:checked + label > .card .back,
+#card-flip65:checked + label > .card .back,
+#card-flip66:checked + label > .card .back,
+#card-flip67:checked + label > .card .back,
+#card-flip68:checked + label > .card .back,
+#card-flip69:checked + label > .card .back,
+#card-flip70:checked + label > .card .back,
+#card-flip71:checked + label > .card .back,
+#card-flip72:checked + label > .card .back,
+#card-flip73:checked + label > .card .back,
+#card-flip74:checked + label > .card .back,
+#card-flip75:checked + label > .card .back {
     transform: perspective(300px) rotateY(0deg);
 }
